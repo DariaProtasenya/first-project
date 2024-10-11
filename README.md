@@ -13,5 +13,11 @@
 * `touch todo.txt file.html style.css` — Создать файлы `todo.txt`, `file.html`, `style.css`.
 * `mkdir new-project` — Создать в текущей папке новую папку с именем `new-project`.
 #### Копирование и перемещение
+* `cp todo.txt ~my-dir` — Скопировать файл `todo.txt` в `my-dir`.
+* `mv todo.txt ~new-dir` — Переместить файл `todo.txt` в `new-dir`.
 #### Чтение
+* `cat todo.txt` — Распечатать содержимое файла `todo.txt`.
 #### Удаление
+* `rm todo.txt` — Навсегда удалить файл `todo.txt`.
+* `rmdir files` — Навсегда удалить папку `files`.
+* `rm -r files` — Навсегда удалить папку `files` и все, что она содержит.
